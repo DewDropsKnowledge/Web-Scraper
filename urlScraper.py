@@ -55,7 +55,3 @@ def urlScraper(url, total_urls=100):
     driver.quit()
     print("Scraping complete. A total of", scraped_urls, "URLs have been scraped and saved to 'article_urls.txt'")
 
-# Example usage
-url = "https://cointelegraph.com/tags/bitcoin"  # Replace with the actual URL
-total_urls_to_scrape = 100  # Control the total number of URLs to scrape
-urlScraper(url, total_urls_to_scrape)
